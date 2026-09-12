@@ -25,18 +25,18 @@
       display: flex;
       gap: 10px; /* Ruimte tussen de fotos */
     }
-    .speler{
+    #spelers *{
       flex: 1;
       min-width: 0; 
       object-fit: cover;
     }
-    .speler {
+    #spelers img {
       border: 3px solid black; 
       border-radius: 12px;
       transition: border-color 0.3s ease, box-shadow 0.3s ease;
     }
 
-    .speler:hover {
+    #spelers img:hover {
       border-color: #ffffff;
       box-shadow: 0 0 15px #034694; 
     }  
@@ -94,15 +94,9 @@
        Geovany Quenda, Valentin Barco, Alecsandr Satpaev, ... Bekende oude spelers zijn: Ashley Cole, John  Terry, Cezar Azpilicueta, Frank Lampard, ...</p>
       <br>
       <div id="spelers">
-        <a href="https://nl.wikipedia.org/wiki/John_Terry_(voetballer)">
-          <img src="johnterry.avif" class="speler">  
-        </a>
-        <a href="https://nl.wikipedia.org/wiki/Frank_Lampard">
-          <img src="Chelsea-v-Basel-Frank-Lampard_3005627.jpg" class="speler">
-        </a>
-        <a href="https://en.wikipedia.org/wiki/Ashley_Cole" class="speler">
-          <img src="AshleyCole.jpg">
-        </a>
+        <img src="johnterry.avif">
+        <img src="Chelsea-v-Basel-Frank-Lampard_3005627.jpg">
+        <img src="AshleyCole.jpg">
       </div>
       <br>
       <h3>AANKOOPBELEID</h3>
@@ -117,4 +111,3 @@
     </div>
   </body>
 </html>
-
