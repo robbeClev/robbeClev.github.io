@@ -25,18 +25,18 @@
       display: flex;
       gap: 10px; /* Ruimte tussen de fotos */
     }
-    #spelers *{
+    .speler{
       flex: 1;
       min-width: 0; 
       object-fit: cover;
     }
-    #spelers img {
+    .speler {
       border: 3px solid black; 
       border-radius: 12px;
       transition: border-color 0.3s ease, box-shadow 0.3s ease;
     }
 
-    #spelers img:hover {
+    .speler:hover {
       border-color: #ffffff;
       box-shadow: 0 0 15px #034694; 
     }  
@@ -95,12 +95,12 @@
       <br>
       <div id="spelers">
         <a href="https://nl.wikipedia.org/wiki/John_Terry_(voetballer)">
-          <img src="johnterry.avif">  
+          <img src="johnterry.avif" class="speler">  
         </a>
         <a href="https://nl.wikipedia.org/wiki/Frank_Lampard">
-          <img src="Chelsea-v-Basel-Frank-Lampard_3005627.jpg">
+          <img src="Chelsea-v-Basel-Frank-Lampard_3005627.jpg" class="speler">
         </a>
-        <a href="https://en.wikipedia.org/wiki/Ashley_Cole">
+        <a href="https://en.wikipedia.org/wiki/Ashley_Cole" class="speler">
           <img src="AshleyCole.jpg">
         </a>
       </div>
