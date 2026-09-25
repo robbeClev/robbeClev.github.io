@@ -4,6 +4,24 @@
     border: 1px solid black;
 }
 
+.rechthoek {
+    width: 150px;
+    height: 100px;
+    border: 1px solid black;
+} 
+
 .rood {
     background-color: red;
+}
+
+.groen {
+    background-color: green;
+}
+
+.geel {
+    background-color: yellow;
+}
+
+.blauw {
+    background-color: blue;
 }
