@@ -19,3 +19,41 @@ body#background {
 	width: 100%;
 }
 
+.bar {
+  width: 100%;
+  background-color: #F7DA5C;
+}
+
+.bar p {
+  margin: 0px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  text-indent: 0px;
+}
+
+p {
+  text-indent: 50px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid lightgray;
+  padding: 10px;
+}
+
+.rechts {
+  text-align: right;
+}
+
+.midden {
+  text-align: center;
+}
+
+.drijf {
+  float: right;
+}
